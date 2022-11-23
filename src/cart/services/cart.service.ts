@@ -4,6 +4,8 @@ import { v4 } from 'uuid';
 
 import { Cart } from '../models';
 
+const cartId = '632c1082-0216-4c4c-9b32-bdffcb942fcd';
+
 @Injectable()
 export class CartService {
   private userCarts: Record<string, Cart> = {};
